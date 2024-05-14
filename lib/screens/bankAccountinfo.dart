@@ -6,17 +6,18 @@ class BankAccountInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppbar().appbarwithback(context, "Bank Account info", false,false),
+      appBar:
+          MyAppbar().appbarwithback(context, "Bank Account info", false, false),
       body: ListView(
         padding: EdgeInsets.only(right: 15, left: 15),
         children: [
           BankAccountBar(
               bankName: "Bank of Amrica - 0182128xxx",
-              username: "Taba Sualeh",
+              username: "Frezzy",
               imgpath: "bankofAmerica"),
           BankAccountBar(
               bankName: "Zenith Bank - 0182128xxx",
-              username: "Taba Sualeh",
+              username: "Frezzy",
               imgpath: "zenith"),
         ],
       ),

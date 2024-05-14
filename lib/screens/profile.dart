@@ -26,7 +26,7 @@ class Profile extends StatelessWidget {
 
     return Scaffold(
       // backgroundColor: Color(0xffF6F6F9),
-      appBar: MyAppbar().appbarwithback(context, "", false,true),
+      appBar: MyAppbar().appbarwithback(context, "", false, true),
       body: Center(
         child: Column(
           children: [
@@ -39,12 +39,12 @@ class Profile extends StatelessWidget {
             ),
             const CircleAvatar(
               radius: 75,
-              backgroundImage: AssetImage("assets/dp.jpg"),
+              backgroundImage: AssetImage("assets/profil.jpg"),
             ),
             Padding(
               padding: const EdgeInsets.only(top: 21.0, bottom: 7),
               child: Text(
-                "Taba Sualeh",
+                "Frezzy",
                 style: Theme.of(context)
                     .textTheme
                     .displayMedium!
